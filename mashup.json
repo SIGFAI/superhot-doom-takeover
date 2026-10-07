@@ -1,0 +1,177 @@
+{
+  "id": "sigf/superhot-doom-takeover",
+  "version": "1.0.0",
+  "name": "Doom Takeover",
+  "tagline": "Bring Doom into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "doom",
+      "role": "guest",
+      "label": "Doom"
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "superhot-doom-takeover.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/bfg.wav",
+              "sha256": "7b7910293f430b96658ca0c0a038315d11c4693b7c92e105301e64f986b73d07"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/death.wav",
+              "sha256": "4465cdd73d6b0e91e25ab1f257cb0ae55c62353941104fa4019d22c875ad72e2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/door.wav",
+              "sha256": "3297f31c441067a1acf20e458b7f77cbe1fe86321f00e7e89e9ee4f460dd5832"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/face_a.png",
+              "sha256": "bb2d51a2331790fdd9e1239ef09319474aac07951984e9b80d97e11167383b57"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/face_grin.png",
+              "sha256": "8b2869a385ecf10b8cc738439009bedb1b22f2bd06ecd6cbe0181726d0e1439d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/face_hurt.png",
+              "sha256": "bc99f41da24316e54a44865a491fe610d541a51758a77de0325f920f401c8c17"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/face_left.png",
+              "sha256": "ae42dffdd5a657e16a77c7969f1eaf6edaf8c8f583b566fd410910a989c733b9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/face_rage.png",
+              "sha256": "0021fbb1a3d8cecef831b1eb01b39bd1a3dc2d4215758558d63e1f76d8cba7d6"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fire.png",
+              "sha256": "c2a0e9bd4ce0bc7d60155d7ddc1924cc21c1019488e3113c4c4a14c909518e43"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fireball.wav",
+              "sha256": "962b232225d90f64fed485abacec23181a12f5ee19f9a17c980ef1e160e3ab86"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/growl1.wav",
+              "sha256": "cb912c677c232a3779920cd440adb69618afe3c9684263e73857f169aeffe507"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/growl2.wav",
+              "sha256": "25eb8145f3c5762f0d6eacfdb411cf97362788ff2f866f5d53c55861a9718763"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hell.png",
+              "sha256": "030d03b8e4df9ff67a333b40c443f89d03120d66b58506f5388380713c0cc447"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/music.wav",
+              "sha256": "5ea0ac81e503791f973a2d3be66eb27b6f083e0a09f9cc42090ae14dc4579798"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/pain.wav",
+              "sha256": "a2261538fd0a8070d288c481278dd7847b290190fce8c35761f62d7b29260217"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/pickup.wav",
+              "sha256": "89d277bcb393a4055bc8150645fe8e82897560443d1ed8e6df03cffadd3ba1b9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/plasma.png",
+              "sha256": "1c64c4305262da72840a541aec71186568637c4288afe0cd5919551279ccb5c0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/shotgun.wav",
+              "sha256": "2c1c6a56b6e65badee4430ff3b93d4338f8efe321b082e0325c09963d641da78"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/skin_caco.png",
+              "sha256": "d50a0b58fb26e85d27a4de8504f0a4a8ddc6e8fc93321b6825ee77a1646e769c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/skin_face.png",
+              "sha256": "f1d7ff7d21195bc8cc57d1aa190c47f1f2804457a6b1cf3e1395a1a623c51b54"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/skin_imp.png",
+              "sha256": "b5fd6d496478daffcc8610688d86aa06b75c271d69ab32ca27c31d8d4630b6a4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/skin_zombie.png",
+              "sha256": "727cc117ec2ceefe9acbcc5be9d4748434283e7e680dfb3ce8cb2ffd056c28b7"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/wall_tech.png",
+              "sha256": "bae16689c1d76df9980a81102b7f0ff67f7743082532eb825a371a08c9bea260"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "381e4b966699a3f7992330836d3568c444a7b03d67dcc4846c10b96eb59e85e9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "358a806e75988f704f78ae75726e694c48f541a1f5e23a02fe2fe54072931ca9"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/superhot-doom-takeover/releases/download/v1.0.0/superhot-doom-takeover.zip",
+          "sha256": "eb80bbcf541c5cf63780faabd8f43d0dc7fd80f612e575d484625fe369cdee8f",
+          "size": 4950521
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "superhot-doom-takeover.zip",
+      "url": "https://github.com/SIGFAI/superhot-doom-takeover/releases/download/v1.0.0/superhot-doom-takeover.zip",
+      "sha256": "eb80bbcf541c5cf63780faabd8f43d0dc7fd80f612e575d484625fe369cdee8f",
+      "size": 4950521
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/superhot-doom-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-07-a8e18e6d.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-07T10:41:35.321Z",
+  "notes": [
+    "Install BepInEx 5 (64-bit) into your SUPERHOT folder, then copy the BepInEx folder from this mod into it and start the game. Walk to move time, press F to fire the shotgun, and grab the green BFG9000."
+  ]
+}
