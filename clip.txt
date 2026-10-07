@@ -1,0 +1,7 @@
+CLIP MOMENTS (Doom Takeover) - ticked only when seen in the preview screenshots
+[x] 1. Title "DOOM TAKEOVER" over the lab turned into a Doom tech base at 200-line pixels, the Doom status bar with the marine face and shotgun in hand, an imp, a zombieman and a cacodemon in view.
+[x] 2. SUPERHOT time freeze: the demons' fireballs hang in the air in bullet time while the shotgun fires (muzzle flash, ammo drops); the cacodemon flashes white and bleeds on each hit (pain), the fireball hits take the marine's health down and his face winces.
+[x] 3. Demons die in SUPERHOT shatter plus Doom gore, the KILLS counter climbs, the marine grins.
+[x] 4. Walk into the BFG9000 pickup: green flash, green lightning bolts vaporise every demon in the room, the marine rages.
+[x] 5. Walk into a medikit: "Picked up a medikit." and health goes back up; then the push through the lab with more demons and the shotgun.
+Weak spots: the imps and zombiemen are flat-shaded (unlit) like the original engine; the muzzle flash lasts a tenth of a second.

@@ -1,0 +1,1 @@
+Install BepInEx 5 (64-bit) into your SUPERHOT folder, then copy the BepInEx folder from this mod into it and start the game. Walk to move time, press F to fire the shotgun, and grab the green BFG9000.
